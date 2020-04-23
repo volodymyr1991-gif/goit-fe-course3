@@ -1,0 +1,54 @@
+body {
+  font-family: "Playfair Display" serif;
+  font-size: 14px;
+  color: #626262;
+  line-height: 24px;
+}
+.container {
+  width: 900px;
+  margin: 0px auto;
+}
+.site-navigation li {
+  display: inline-block;
+  margin-right: 100px;
+}
+.site-navigation ul :hover {
+  color: #f1f9fe;
+}
+
+.site-navigation {
+  font-size: 14px;
+  list-style: none;
+  text-align: center;
+  width: 900px;
+}
+
+.site-navigation a {
+  color: #626262;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 17px;
+}
+.features-list {
+  list-style: none;
+}
+.features-list-item {
+  display: inline-block;
+  width: 420px;
+}
+h2 {
+  color: #626262;
+  font-size: 30px;
+  line-height: 16px;
+}
+.features-list-name {
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+button {
+  font-size: 20px;
+  line-height: 24px;
+  width: 160px;
+  height: 60px;
+}
