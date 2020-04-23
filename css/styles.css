@@ -8,12 +8,17 @@ body {
   width: 900px;
   margin: 0px auto;
 }
+/* Шапка сайту */
+
 .site-navigation li {
   display: inline-block;
-  margin-right: 100px;
+  margin-right: 89px;
 }
-.site-navigation ul :hover {
-  color: #f1f9fe;
+/* .site-navigation ul :hover {
+  color: #0e1113; */
+
+.site-navigation-list li :hover {
+  color: aqua;
 }
 
 .site-navigation {
@@ -30,12 +35,18 @@ body {
   text-decoration: none;
   line-height: 17px;
 }
+/* Main */
+
 .features-list {
   list-style: none;
+  margin-top: 65px;
 }
 .features-list-item {
   display: inline-block;
   width: 420px;
+}
+.features-list-item li :nth-child(2) {
+  padding-right: 0px;
 }
 h2 {
   color: #626262;
@@ -47,7 +58,10 @@ h2 {
   text-transform: uppercase;
 }
 button {
+  margin-left: 380px;
+  margin-top: 22px;
   font-size: 20px;
+  font-weight: 300;
   line-height: 24px;
   width: 160px;
   height: 60px;
