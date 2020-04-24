@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 body {
-  font-family: "Playfair Display" serif;
+  font-family: "Playfair+Display";
   font-size: 14px;
   color: #626262;
   line-height: 24px;
@@ -10,15 +12,12 @@ body {
 }
 /* Шапка сайту */
 
-.site-navigation li {
-  display: inline-block;
-  margin-right: 89px;
+a {
+  margin: 0 40px;
 }
-/* .site-navigation ul :hover {
-  color: #0e1113; */
 
-.site-navigation-list li :hover {
-  color: aqua;
+.site-navigation :hover {
+  color: #44b6f5;
 }
 
 .site-navigation {
@@ -43,23 +42,34 @@ body {
 }
 .features-list-item {
   display: inline-block;
-  width: 420px;
+  width: 428px;
 }
-.features-list-item li :nth-child(2) {
+
+.features-list-img {
+  background-color: brown;
+}
+
+.features-list-item :nth-child(5) {
+  background-color: aqua;
   padding-right: 0px;
 }
+
 h2 {
   color: #626262;
   font-size: 30px;
   line-height: 16px;
 }
+
 .features-list-name {
+  font-family: "Ubuntu";
   color: #b4ad9e;
   text-transform: uppercase;
 }
+
 button {
   margin-left: 380px;
   margin-top: 22px;
+  line-height: 24px;
   font-size: 20px;
   font-weight: 300;
   line-height: 24px;
