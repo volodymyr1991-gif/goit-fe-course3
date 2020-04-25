@@ -12,8 +12,13 @@ body {
 }
 /* Шапка сайту */
 
-a {
-  margin: 0 40px;
+.site-navigation a:not(:last-child) {
+  margin-right: 100px;
+}
+
+.site-navigation {
+  margin: 0px;
+  padding: 80px 0 100px;
 }
 
 .site-navigation :hover {
@@ -24,7 +29,6 @@ a {
   font-size: 14px;
   list-style: none;
   text-align: center;
-  width: 900px;
 }
 
 .site-navigation a {
@@ -34,30 +38,38 @@ a {
   text-decoration: none;
   line-height: 17px;
 }
+
 /* Main */
 
 .features-list {
   list-style: none;
-  margin-top: 65px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
 }
+.features-list-item p {
+  font-size: 14px;
+}
+
 .features-list-item {
   display: inline-block;
-  width: 428px;
+  width: 420px;
+  margin-right: 60px;
+  margin-bottom: 130px;
+}
+.features-list-item:nth-child(2n) {
+  margin-right: 0px;
 }
 
-.features-list-img {
-  background-color: brown;
-}
-
-.features-list-item :nth-child(5) {
-  background-color: aqua;
-  padding-right: 0px;
+.features-list-item:nth-child(n + 5) {
+  margin-bottom: 60px;
 }
 
 h2 {
   color: #626262;
   font-size: 30px;
   line-height: 16px;
+  margin-bottom: 40px;
 }
 
 .features-list-name {
@@ -67,8 +79,7 @@ h2 {
 }
 
 button {
-  margin-left: 380px;
-  margin-top: 22px;
+  margin: 0 370px;
   line-height: 24px;
   font-size: 20px;
   font-weight: 300;
